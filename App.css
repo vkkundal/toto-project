@@ -1,0 +1,65 @@
+body{
+  background-color: #9266ff;
+}
+.App {
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#todoForm input {
+  background-color: rgb(27, 112, 137);
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+}
+#todoForm input::placeholder {
+  color: rgb(225, 225, 225, 0.5);
+}
+#todoForm input:focus, #todoForm button {
+  outline: none;
+}
+#todoForm button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bolder;
+  color: #fff;
+  background-color: rgb(202, 156, 24);
+  cursor: pointer;
+}
+.list{
+  color: #fff;
+  background-color: #bf07ac;
+  width: 300px;
+  height: 50px;
+  margin: 23px auto;
+  border-radius: 5px;
+}
+.list p {
+  position: relative;
+  padding: 10px;
+}
+.list p span {
+position: absolute;
+right: 10px;
+cursor: pointer;
+}
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: #fff ;
+  font-size: 18px;
+}
+.list p input:focus {
+  outline: none;
+}
